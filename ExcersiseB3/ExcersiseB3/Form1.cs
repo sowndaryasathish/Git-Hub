@@ -25,6 +25,9 @@ namespace ExcersiseB3
             textBox2.Text = totalsalary.ToString();
 
         }
-
+        private void setBold(object sender, EventArgs e)
+        {
+            textBox2.Font = new Font(textBox2.Font, FontStyle.Bold);
+        }
     }
 }
