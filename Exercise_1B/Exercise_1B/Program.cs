@@ -16,9 +16,6 @@ namespace Exercise_1B
             Console.WriteLine("8. area");
 
             Console.Write("Enter Your choice: ");
-        
-
-
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
