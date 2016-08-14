@@ -18,21 +18,23 @@ namespace ExcersiseA
             
 
             int option = Convert.ToInt32(Console.ReadLine());
-           
-            if (option == 1)
+
+            switch (option)
             {
-                printName();
-            } else if (option == 2)
-            {
-                square();
-            }
-            else if (option == 3)
-            {
-                decimalsquare();
-            }
-            else if (option == 4)
-            {
-                formatdecimal();
+                case 1:
+                    printName();
+                    break;
+                case 2:
+                    square();
+                    break;
+                case 3:
+                    decimalsquare();
+                    break;
+                case 4:
+                    formatdecimal();
+                    break;
+                default:
+                    break;
             }
         }
 
