@@ -11,7 +11,7 @@ namespace ExerciseC4
         static void Main(string[] args)
         {
             Console.Write("Please enter the distance(km): ");
-            double distance = Convert.ToDouble(Console.ReadLine());
+            double distance = (Console.ReadLine());
             distance = Math.Ceiling(10 * distance) / 10;
             Console.WriteLine("The total fare is S${0:0.00}", CalculateFare(distance));
             Console.ReadLine();

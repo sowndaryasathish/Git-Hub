@@ -14,6 +14,7 @@ namespace ExerciseC5
             Console.Write("Enter a three-digit integer: ");
             string number =Console.ReadLine();
             Console.WriteLine("{0} {1} is an Armstrong number", number, ArmstrongNumber(number));
+            Console.ReadLine();
         }
         public static string ArmstrongNumber(string number)
         {
@@ -36,7 +37,7 @@ namespace ExerciseC5
 
             if (num == tribleSum)
             {
-                resultArmstrongNumber = "is";
+                ArmstrongNumber = "is";
             }
             else
             {
